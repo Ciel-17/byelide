@@ -1,0 +1,53 @@
+{
+  "name": "byelide",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint:style": "stylelint \"src/**/*.{vue,css}\" --fix",
+    "format": "prettier --write src/",
+    "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"src/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md|vue)\"",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "1.8.0",
+    "@tsconfig/node20": "20.1.2",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "20.11.30",
+    "@vitejs/plugin-vue": "5.0.4",
+    "@vitejs/plugin-vue-jsx": "3.1.0",
+    "@vue/eslint-config-prettier": "9.0.0",
+    "@vue/eslint-config-typescript": "13.0.0",
+    "@vue/test-utils": "2.4.5",
+    "@vue/tsconfig": "0.5.1",
+    "eslint": "8.57.0",
+    "eslint-plugin-vue": "9.23.0",
+    "jsdom": "24.0.0",
+    "npm-run-all2": "6.1.2",
+    "prettier": "3.2.5",
+    "typescript": "5.4.2",
+    "vite": "5.2.2",
+    "vite-plugin-vue-devtools": "7.0.19",
+    "vitest": "1.4.0",
+    "vue-tsc": "2.0.7",
+    "stylelint": "16.2.1",
+    "stylelint-config-prettier": "9.0.5",
+    "stylelint-config-standard": "36.0.0",
+    "stylelint-config-html": "1.1.0",
+    "stylelint-config-vue": "1.0.0",
+    "cspell": "8.6.0",
+    "husky": "9.0.11"
+  }
+}

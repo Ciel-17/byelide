@@ -14,7 +14,13 @@
     "lint:style": "stylelint \"src/**/*.{vue,css}\" --fix",
     "format": "prettier --write src/",
     "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"src/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md|vue)\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   },
   "dependencies": {
     "pinia": "^2.1.7",
@@ -48,6 +54,11 @@
     "stylelint-config-html": "1.1.0",
     "stylelint-config-vue": "1.0.0",
     "cspell": "8.6.0",
-    "husky": "9.0.11"
+    "husky": "9.0.11",
+    "cz-git": "1.9.0",
+    "commitizen": "4.3.0",
+    "cz-customizable": "7.0.0",
+    "@commitlint/config-conventional": "19.1.0",
+    "conventional-changelog-conventionalcommits": "7.0.2"
   }
 }

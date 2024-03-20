@@ -1,5 +1,7 @@
+commitlint
+conventionalcommits
+optimizelegibility
 Pinia
 rushstack
 stylelint
 vuejs
-optimizelegibility

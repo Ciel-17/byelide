@@ -1,4 +1,7 @@
 /* eslint-env node */
 module.exports = {
-  extends: ['stylelint-config-prettier', 'stylelint-config-standard', 'stylelint-config-html/vue']
+  extends: ['stylelint-config-recommended-vue'],
+  rules: {
+    'unit-allowed-list': ['px', 'rem', '%', 'vh', 'vw']
+  }
 }

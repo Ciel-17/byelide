@@ -26,7 +26,8 @@
     "pinia": "^2.1.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
-    "@icon-park/vue-next": "1.4.2"
+    "@icon-park/vue-next": "1.4.2",
+    "smooth-dnd": "0.12.1"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "1.8.0",

@@ -114,14 +114,13 @@ const Icon = defineComponent({
   justify-content: space-between;
   align-items: center;
   height: 48px;
-  box-shadow: rgb(0, 0, 0 /8%) 0 1px 0;
+  box-shadow: rgb(0 0 0 / 8%) 0 1px 0;
 }
 
 .app-info-wrapper {
   width: 1000px;
   display: flex;
-  place-items: enter;
-  align-items: center;
+  place-items: center;
 }
 
 .app-logo {

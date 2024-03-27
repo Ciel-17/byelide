@@ -1,6 +1,7 @@
 Byelide
 commitlint
 conventionalcommits
+kemomimi
 optimizelegibility
 Pinia
 rushstack
